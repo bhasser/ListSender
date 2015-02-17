@@ -1,0 +1,231 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/mainLayout"
+    android:orientation="vertical"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent">
+
+
+
+<ScrollView 
+    android:id="@+id/scrollView1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+    
+    
+
+<LinearLayout    
+    android:id="@+id/thingynoworky"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/adView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true"
+        ads:adSize="BANNER"
+        ads:adUnitId="@string/banner_ad_unit_id">
+    </com.google.android.gms.ads.AdView>
+
+     <LinearLayout
+     	android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+    	<EditText
+    	    android:id="@+id/editText_ToName"
+    	    android:layout_width="0dp"
+    	    android:layout_height="wrap_content"
+    	    android:layout_weight="0.85"
+    	    android:ems="10"
+    	    android:hint="Name of the List"
+    	    android:inputType="textCapWords"
+    	    android:maxLength="25"
+    	    android:maxLines="2"
+    	    android:textSize="32sp"
+    	    android:textStyle="bold"
+    	    android:typeface="sans" />
+
+    </LinearLayout>
+    
+       	
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+     
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.15"
+        	android:id="@+id/forShort1"
+        	android:text="1.)" />
+
+    	<EditText
+    	    android:id="@+id/editText_ForShort1"
+    	    android:layout_width="0dp"
+    	    android:layout_height="wrap_content"
+    	    android:layout_weight="0.85"
+    	    android:ems="10"
+    	    android:hint="Enter List Item Here"
+    	    android:inputType="textCapWords"
+    	    android:maxLength="25" />
+
+ 	</LinearLayout>
+    	<LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+ 	</LinearLayout>
+ 	
+ 	<LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+     
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.15"
+        	android:id="@+id/forShort2"
+        	android:text="2.)" />
+
+    	<EditText
+    	    android:id="@+id/editText_ForShort2"
+    	    android:layout_width="0dp"
+    	    android:layout_height="wrap_content"
+    	    android:layout_weight="0.85"
+    	    android:ems="10"
+    	    android:hint="Enter List Item Here"
+    	    android:inputType="textCapWords"
+    	    android:maxLength="25" />
+
+ 	</LinearLayout>
+ 	
+ 	<LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+     
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.15"
+        	android:id="@+id/forShort3"
+        	android:text="3.)" />
+
+    	<EditText
+    	    android:id="@+id/editText_ForShort3"
+    	    android:layout_width="0dp"
+    	    android:layout_height="wrap_content"
+    	    android:layout_weight="0.85"
+    	    android:ems="10"
+    	    android:hint="Enter List Item Here"
+    	    android:inputType="textCapWords"
+    	    android:maxLength="25" />
+
+ 	</LinearLayout>
+ 	
+ 	<LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+     
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.15"
+        	android:id="@+id/forShort4"
+        	android:text="4.)" />
+
+    	<EditText
+    	    android:id="@+id/editText_ForShort4"
+    	    android:layout_width="0dp"
+    	    android:layout_height="wrap_content"
+    	    android:layout_weight="0.85"
+    	    android:ems="10"
+    	    android:hint="Enter List Item Here"
+    	    android:inputType="textCapWords"
+    	    android:maxLength="25" />
+
+ 	</LinearLayout>
+ 	
+ 	<LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+     
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.15"
+        	android:id="@+id/forShort5"
+        	android:text="5.)" />
+
+    	<EditText
+    	    android:id="@+id/editText_ForShort5"
+    	    android:layout_width="0dp"
+    	    android:layout_height="wrap_content"
+    	    android:layout_weight="0.85"
+    	    android:ems="10"
+    	    android:hint="Enter List Item Here"
+    	    android:inputType="textCapWords"
+    	    android:maxLength="25" />
+
+ 	</LinearLayout>
+ 	
+ 	<LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+     
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.15"
+        	android:id="@+id/forShort6"
+        	android:text="6.)" />
+
+    	<EditText
+    	    android:id="@+id/editText_ForShort6"
+    	    android:layout_width="0dp"
+    	    android:layout_height="wrap_content"
+    	    android:layout_weight="0.85"
+    	    android:ems="10"
+    	    android:hint="Enter List Item Here"
+    	    android:inputType="textCapWords"
+    	    android:maxLength="25" />
+
+ 	</LinearLayout>
+
+ 	<ImageView
+ 	    android:id="@+id/imageView1"
+ 	    android:layout_width="fill_parent"
+ 	    android:layout_height="fill_parent"
+ 	    android:layout_weight="1"
+ 	    android:src="@drawable/certtemplate" />
+    
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+    
+		<Button
+		    android:id="@+id/button1"
+		    android:layout_width="0dp"
+		    android:layout_height="wrap_content"
+		    android:layout_weight="0.5"
+		    android:text="Send List!" />
+        
+	</LinearLayout>  
+	
+    
+        
+</LinearLayout>
+
+</ScrollView>
+
+</LinearLayout>
